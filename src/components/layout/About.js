@@ -57,10 +57,11 @@ const About = () => {
                 />
               </div>
               <p>
-                This will be a sample paragraph about me. There will be text
-                here. I want this to be a few sentences. Perhaps the same
-                sentences that will appear in the about me on my resume; but
-                then again, perhaps not.
+                Web developer with a deep desire to hone industry skills. Ready
+                and able to dig into the details of a new project, utilize
+                effective communication with the team, bring ideas to the table
+                based on past problems solved and new understandings, and write
+                clean, well-documented code.
               </p>
             </AboutCard>
             <AboutCard>

@@ -26,43 +26,47 @@ export const StyledAbout = styled.section`
     justify-content: center;
     height: 100%;
     margin-bottom: 8rem;
+
+    @media ${props => props.theme.device.mobileL} {
+      margin-bottom: 0;
+    }
   }
 `;
 
 export const AboutGrid = styled.div`
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   grid-template-columns: repeat(4, 1fr);
 
-  @media ${props => props.theme.device.laptopL} {
-    grid-gap: 1rem;
+  @media ${props => props.theme.device.desktop} {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media ${props => props.theme.device.laptop} {
     grid-gap: 4rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  @media ${props => props.theme.device.tabletS} {
+  @media ${props => props.theme.device.mobileL} {
+    grid-gap: 0rem;
     grid-template-columns: repeat(1, 1fr);
   }
 `;
 
 export const AboutCard = styled.div`
   overflow: hidden;
-  max-width: 320px;
+  max-width: 390px;
   border-radius: 5px;
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.68);
-  padding: 0;
-  max-height: 32rem;
-  min-height: 32rem;
+  padding: 1rem;
+  max-height: 38rem;
+  min-height: 38rem;
   text-align: center;
   position: relative;
 
   &:nth-child(even) {
     color: ${props => props.theme.spaceColor};
     background: #b3c7d6;
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.68);
   }
 
   &:nth-child(odd) {
@@ -75,8 +79,8 @@ export const AboutCard = styled.div`
 
   .icons {
     position: absolute;
-    top: 280px;
-    left: 175px;
+    top: 350px;
+    left: 265px;
     .logos {
       width: 70px;
       margin: 0;
@@ -104,11 +108,11 @@ export const AboutCard = styled.div`
     }
 
     .e-mar {
-      margin: 4rem;
+      margin: 7rem;
     }
 
     .e-e-mar {
-      margin: 4.5rem;
+      margin: 7rem;
     }
 
     ul,
@@ -120,10 +124,10 @@ export const AboutCard = styled.div`
     }
   }
 
-  @media ${props => props.theme.device.laptop} {
-    grid-template-columns: repeat(1, 1fr);
-    &:last-child {
-      margin-bottom: 2rem;
-    }
-  }
+  @media ${props => props.theme.device.mobileL} {
+    border-radius: 0px;
+    box-shadow: none;
+
+    .icons {
+      display: none;
 `;
