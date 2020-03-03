@@ -1,3 +1,2 @@
 [build]
-  base="portfolio\client\build"
   functions = "lambda"
