@@ -41,6 +41,11 @@ export const StyledNavbar = styled.nav`
 
   @media ${props => props.theme.device.tablet} {
     justify-content: center;
+    ul {
+      li {
+        margin-right: none;
+      }
+    }
     .logo {
       display: none;
     }
