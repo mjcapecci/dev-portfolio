@@ -18,5 +18,7 @@ export const StyledButton = styled.button`
 
   @media ${props => props.theme.device.tabletS} {
     margin-bottom: 0;
+    height: 3rem;
+    width: 12rem;
   }
 `;

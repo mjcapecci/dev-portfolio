@@ -47,11 +47,12 @@ export const StyledHero = styled.div`
   @media ${props => props.theme.device.tabletS} {
     h1 {
       font-size: 2.3rem;
+      padding: 0 2rem;
     }
 
     h2 {
       font-size: 1rem;
-      margin: 3rem;
+      margin: 2.3rem;
     }
   }
 `;
