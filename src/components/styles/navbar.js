@@ -5,6 +5,7 @@ export const StyledNavbar = styled.nav`
   align-items: center;
   justify-content: space-between;
   height: 5vh;
+  min-height: 48px;
   color: ${props => props.theme.light};
   width: 100%;
   background: #333;

@@ -40,6 +40,7 @@ export const AboutGrid = styled.div`
 
   @media ${props => props.theme.device.desktop} {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6rem;
   }
 
   @media ${props => props.theme.device.laptop} {

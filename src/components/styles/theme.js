@@ -20,7 +20,7 @@ const size = {
   tabletS: '735px',
   laptop: '1360px',
   laptopL: '1450px',
-  desktop: '1600px',
+  desktop: '1760px',
   desktopL: '2560px'
 };
 

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { createGlobalStyle } from 'styled-components';
 import stars from '../../img/stars.jpg';
 
 export const StyledHero = styled.div`
