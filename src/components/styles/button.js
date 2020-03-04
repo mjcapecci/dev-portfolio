@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const StyledButton = styled.button`
   height: 4rem;
-  min-height: 58px;
   width: 15rem;
   margin: 4rem;
   color: ${props => props.theme.light};
