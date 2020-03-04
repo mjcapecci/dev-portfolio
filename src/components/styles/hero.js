@@ -38,7 +38,6 @@ export const StyledHero = styled.div`
   }
 
   @media ${props => props.theme.device.laptop} {
-    background: ${props => props.theme.spaceColor};
     h1 {
       font-size: 3.5rem;
     }
