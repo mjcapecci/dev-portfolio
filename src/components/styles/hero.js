@@ -43,4 +43,15 @@ export const StyledHero = styled.div`
       font-size: 3.5rem;
     }
   }
+
+  @media ${props => props.theme.device.tabletS} {
+    h1 {
+      font-size: 2.3rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      margin: 3rem;
+    }
+  }
 `;

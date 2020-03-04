@@ -5,6 +5,7 @@ export const StyledNavbar = styled.nav`
   align-items: center;
   justify-content: space-between;
   height: 5vh;
+  min-height: 48px;
   color: ${props => props.theme.light};
   width: 100%;
   background: #333;
@@ -42,9 +43,7 @@ export const StyledNavbar = styled.nav`
   @media ${props => props.theme.device.tablet} {
     justify-content: center;
     ul {
-      li {
-        margin-right: none;
-      }
+      margin-left: 1.5rem;
     }
     .logo {
       display: none;

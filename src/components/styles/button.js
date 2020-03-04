@@ -15,4 +15,8 @@ export const StyledButton = styled.button`
   &:hover {
     background: ${props => props.theme.h_primaryDark};
   }
+
+  @media ${props => props.theme.device.tabletS} {
+    margin-bottom: 0;
+  }
 `;
