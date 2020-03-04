@@ -38,6 +38,7 @@ export const StyledHero = styled.div`
   }
 
   @media ${props => props.theme.device.laptop} {
+    background: url(${stars}) scroll;
     h1 {
       font-size: 3.5rem;
     }
