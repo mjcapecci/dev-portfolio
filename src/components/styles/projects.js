@@ -31,6 +31,18 @@ export const StyledProjects = styled.section`
     height: 100%;
     margin-bottom: 8rem;
   }
+
+  .portfolio-link {
+    a {
+      color: white;
+      text-decoration: none;
+      transition: all 0.1s;
+
+      &:hover {
+        color: #a6a6a6;
+      }
+    }
+  }
 `;
 
 export const ProjectsGrid = styled.div`

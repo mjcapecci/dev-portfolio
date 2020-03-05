@@ -162,7 +162,12 @@ const Projects = () => {
                 <div className='project-links'>
                   <div className='source'>
                     <p>
-                      <i class='fab fa-github-alt'></i> Source
+                      <a
+                        href='https://github.com/mjcapecci/Contractr.io'
+                        target='_blank'
+                      >
+                        <i class='fab fa-github-alt'></i> Source
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -170,8 +175,17 @@ const Projects = () => {
             </ProjectsCard>
           </ProjectsGrid>
         </div>
-        <p style={{ textAlign: 'center', transform: 'translateY(-50px)' }}>
-          Portfolio: <i class='fab fa-github-alt'></i> Source
+        <p
+          style={{ textAlign: 'center', transform: 'translateY(-50px)' }}
+          className='portfolio-link'
+        >
+          Portfolio:{' '}
+          <a
+            href='https://github.com/mjcapecci/portfolio_netlify'
+            target='_blank'
+          >
+            <i class='fab fa-github-alt'></i> Source
+          </a>
         </p>
       </Container>
     </StyledProjects>
