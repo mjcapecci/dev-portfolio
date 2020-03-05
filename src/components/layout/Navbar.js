@@ -20,8 +20,8 @@ const Navbar = () => {
           <a href='#projects'>
             <li>Projects</li>
           </a>
-          <a href='#contact'>
-            <li>Contact</li>
+          <a href='#contact' className='contact'>
+            <li className='contact'>Contact</li>
           </a>
           <a href={resume} target='_blank'>
             <li>Resume</li>

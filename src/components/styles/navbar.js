@@ -49,4 +49,10 @@ export const StyledNavbar = styled.nav`
       display: none;
     }
   }
+
+  @media ${props => props.theme.device.mobileL} {
+    .contact {
+      display: none;
+    }
+  }
 `;
