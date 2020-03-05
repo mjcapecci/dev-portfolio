@@ -2,6 +2,8 @@ import React from 'react';
 import { StyledNavbar } from '../styles/navbar';
 import myLogo from '../../img/myLogo.png';
 
+import resume from '../../resume.pdf';
+
 const Navbar = () => {
   return (
     <StyledNavbar id='navbar'>
@@ -20,6 +22,9 @@ const Navbar = () => {
           </a>
           <a href='#contact'>
             <li>Contact</li>
+          </a>
+          <a href={resume} target='_blank'>
+            <li>Resume</li>
           </a>
         </ul>
       </div>
