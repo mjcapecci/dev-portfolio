@@ -80,10 +80,10 @@ export const AboutCard = styled.div`
 
   .icons {
     position: absolute;
-    top: 350px;
-    left: 265px;
+    top: 345px;
+    left: 150px;
     .logos {
-      width: 70px;
+      width: 60px;
       margin: 0;
     }
     .node {
@@ -91,11 +91,20 @@ export const AboutCard = styled.div`
     }
   }
 
+  .me {
+    width: 100%;
+  }
+
   .picOfMe {
     width: 100%;
-    /* height: 20rem; */
+    height: 20rem;
     box-shadow: 0 0 5px 1px black;
-    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+    border-radius: 5px;
+    /* clip-path: polygon(0 0, 100% 0%, 100% 85%, 0 100%); */
+  }
+
+  .title {
+    margin-top: 3.3rem
   }
 
   .skills {
