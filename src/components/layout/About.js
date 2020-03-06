@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { StyledAbout, AboutCard, AboutGrid } from '../styles/about';
 import { ContainerBig } from '../styles/container';
 import me from '../../img/picOfMe2.jpg';
@@ -37,7 +37,7 @@ const About = () => {
                 <img
                   className='picOfMe'
                   src={me}
-                  alt='A picture of Michael Capecci'
+                  alt='Michael Capecci standing in forn of a painting of ships'
                   ref={ref}
                 ></img>
               </div>
@@ -72,6 +72,7 @@ const About = () => {
                   type='image/svg+xml'
                   data={frontEndImg}
                   class='skillsLogo e-mar'
+                  aria-label='An image of a screen representing Front-End development'
                 ></object>
                 <ul>
                   <li>HTML5</li>
@@ -95,6 +96,7 @@ const About = () => {
                   type='image/svg+xml'
                   data={backEndImg}
                   class='skillsLogo'
+                  aria-label='Image of a database'
                 ></object>
               </div>
             </AboutCard>
@@ -105,6 +107,7 @@ const About = () => {
                   type='image/svg+xml'
                   data={toolsImg}
                   className='skillsLogo e-mar'
+                  aria-label='Image of a tool representing development tooling'
                 ></object>
                 <ul>
                   <li>NPM</li>

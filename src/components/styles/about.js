@@ -80,10 +80,10 @@ export const AboutCard = styled.div`
 
   .icons {
     position: absolute;
-    top: 345px;
-    left: 150px;
+    top: 355px;
+    left: 135px;
     .logos {
-      width: 60px;
+      width: 70px;
       margin: 0;
     }
     .node {
@@ -104,7 +104,8 @@ export const AboutCard = styled.div`
   }
 
   .title {
-    margin-top: 3.3rem
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
 
   .skills {
@@ -133,11 +134,4 @@ export const AboutCard = styled.div`
       list-style-type: none;
     }
   }
-
-  @media ${props => props.theme.device.mobileL} {
-    border-radius: 0px;
-    box-shadow: none;
-
-    .icons {
-      display: none;
 `;
