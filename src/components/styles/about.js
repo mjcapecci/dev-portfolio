@@ -134,4 +134,12 @@ export const AboutCard = styled.div`
       list-style-type: none;
     }
   }
+
+  @media ${props => props.theme.device.mobileL} {
+    border-radius: none;
+
+    .icons {
+      display: none;
+    }
+  }
 `;
