@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyledAbout, AboutCard, AboutGrid } from '../styles/about';
 import { ContainerBig } from '../styles/container';
-import me from '../../img/picOfMe2.jpg';
+import me from '../../img/me.jpg';
 import reactLogo from '../../img/reactLogo.svg';
 import nodeLogo from '../../img/nodeLogo.svg';
 import frontEndImg from '../../img/form.svg';

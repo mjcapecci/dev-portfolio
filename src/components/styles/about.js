@@ -80,14 +80,14 @@ export const AboutCard = styled.div`
 
   .icons {
     position: absolute;
-    top: 355px;
-    left: 135px;
+    top: 350px;
+    left: 265px;
     .logos {
       width: 70px;
       margin: 0;
     }
     .node {
-      transform: translateX(15px) translateY(-3px);
+      transform: translateX(19px) translateY(-3px);
     }
   }
 
@@ -97,14 +97,14 @@ export const AboutCard = styled.div`
 
   .picOfMe {
     width: 100%;
-    height: 20rem;
+    /* height: 20rem; */
     box-shadow: 0 0 5px 1px black;
-    border-radius: 5px;
-    /* clip-path: polygon(0 0, 100% 0%, 100% 85%, 0 100%); */
+    border-radius: 3px;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
   }
 
   .title {
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
   }
 
