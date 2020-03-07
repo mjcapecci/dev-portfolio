@@ -49,7 +49,7 @@ const Projects = () => {
                   <div className='source'>
                     <p>
                       <a
-                        href='https://github.com/mjcapecci/learnalysis-redesign'
+                        href='https://github.com/mjcapecci/learnalysis'
                         target='_blank'
                       >
                         <i class='fab fa-github-alt'></i> Source
