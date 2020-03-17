@@ -21,4 +21,8 @@ export const StyledButton = styled.button`
     height: 3rem;
     width: 12rem;
   }
+
+@media (max-height: 700px) {
+  margin-bottom: 0rem;
+}
 `;

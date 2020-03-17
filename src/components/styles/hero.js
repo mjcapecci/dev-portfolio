@@ -44,6 +44,17 @@ export const StyledHero = styled.div`
     }
   }
 
+  @media (max-height: 700px) {
+    h1 {
+      font-size: 2.3rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      margin: 2.3rem;
+    }
+  }
+
   @media ${props => props.theme.device.tabletS} {
     h1 {
       font-size: 2.3rem;
