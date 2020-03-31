@@ -105,7 +105,7 @@ export const AboutCard = styled.div`
 
   .title {
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .skills {
