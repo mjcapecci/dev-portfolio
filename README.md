@@ -6,8 +6,7 @@ The following are the key technologies used in this portfolio website:
 
 ### Styled Components
 
-This project was styled with the Styled Components library.
-I am happy to report that styled components are convenient to work with and cultivate an awesome workflow.
+This project was styled with the Styled Components library. I learned that Styled Components are fun to work with, and they may be my preffered way of handling CSS at this time.
 
 ### Serverless Functions
 
