@@ -18,6 +18,11 @@ export const StyledNavbar = styled.nav`
     img {
       transform: translateY(1.5px);
       width: 50px;
+      transition: all 0.2s;
+
+      &:hover {
+        filter: brightness(50%);
+      }
     }
   }
 

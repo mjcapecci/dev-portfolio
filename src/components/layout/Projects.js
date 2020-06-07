@@ -66,7 +66,7 @@ const Projects = () => {
                 </div>
               </div>
             </ProjectsCard>
-            <ProjectsCard>
+            <ProjectsCard style={{ gridArea: 'fourth' }}>
               <div className='project project2'>
                 <div className='project-showcase'>
                   <img
@@ -138,7 +138,7 @@ const Projects = () => {
                 </div>
               </div>
             </ProjectsCard>
-            <ProjectsCard style={{ gridArea: 'fourth' }}>
+            <ProjectsCard style={{ gridArea: 'second' }}>
               {' '}
               <div className='project project4'>
                 <div className='project-showcase'>
@@ -156,7 +156,7 @@ const Projects = () => {
                     Express, and mySQL.
                   </p>
                   <p>
-                    <em>★ In-development ★</em>
+                    <em>★ In Development, Pre-Release Build! ★</em>
                   </p>
                 </div>
                 <div className='project-links'>
@@ -167,6 +167,13 @@ const Projects = () => {
                         target='_blank'
                       >
                         <i class='fab fa-github-alt'></i> Source
+                      </a>
+                    </p>
+                  </div>
+                  <div className='live'>
+                    <p>
+                      <a href='https://www.contractr.io/' target='_blank'>
+                        <i class='far fa-hand-point-right'></i> Live
                       </a>
                     </p>
                   </div>
