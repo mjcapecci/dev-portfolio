@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Key Technologies
 
 The following are the key technologies used in this portfolio website:
