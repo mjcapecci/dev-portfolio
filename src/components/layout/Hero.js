@@ -15,10 +15,18 @@ const Hero = () => {
       </motion.h1>
       <h2>Full-stack Web Developer</h2>
       <div className='social'>
-        <a href='https://github.com/mjcapecci' target='_blank'>
+        <a
+          href='https://github.com/mjcapecci'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <i class='fab fa-github-square'></i>
         </a>
-        <a href='https://www.linkedin.com/in/michaelcapecci/' target='_blank'>
+        <a
+          href='https://www.linkedin.com/in/michaelcapecci/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <i class='fab fa-linkedin'></i>
         </a>
       </div>

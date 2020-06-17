@@ -23,7 +23,7 @@ const Navbar = () => {
           <a href='#contact' className='contact'>
             <li className='contact'>Contact</li>
           </a>
-          <a href={resume} target='_blank'>
+          <a href={resume} target='_blank' rel='noopener noreferrer'>
             <li>Resume</li>
           </a>
         </ul>

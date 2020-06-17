@@ -51,6 +51,7 @@ const Projects = () => {
                       <a
                         href='https://github.com/mjcapecci/learnalysis'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <i class='fab fa-github-alt'></i> Source
                       </a>
@@ -58,7 +59,11 @@ const Projects = () => {
                   </div>
                   <div className='live'>
                     <p>
-                      <a href='http://learnalysis.com/' target='_blank'>
+                      <a
+                        href='http://learnalysis.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <i class='far fa-hand-point-right'></i> Live
                       </a>
                     </p>
@@ -89,6 +94,7 @@ const Projects = () => {
                       <a
                         href='https://github.com/mjcapecci/JS_Jedi'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <i class='fab fa-github-alt'></i> Source
                       </a>
@@ -96,7 +102,11 @@ const Projects = () => {
                   </div>
                   <div className='live'>
                     <p>
-                      <a href='https://brave-euclid-31a9af.netlify.com/'>
+                      <a
+                        href='https://brave-euclid-31a9af.netlify.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <i class='far fa-hand-point-right'></i> Live
                       </a>
                     </p>
@@ -116,7 +126,11 @@ const Projects = () => {
                 </div>
                 <div className='project-info'>
                   <p style={{ color: '#1c1c1c' }}>
-                    <a href='https://www.parkavedentalcare.com' target='_blank'>
+                    <a
+                      href='https://www.parkavedentalcare.com'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
                       ParkAveDentalCare.com
                     </a>{' '}
                     is a website for a local dental office. Built with HTML, CSS
@@ -129,6 +143,7 @@ const Projects = () => {
                       <a
                         href='https://www.parkavedentalcare.com'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         {' '}
                         <i class='far fa-hand-point-right'></i> Live
@@ -165,6 +180,7 @@ const Projects = () => {
                       <a
                         href='https://github.com/mjcapecci/Contractr.io'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <i class='fab fa-github-alt'></i> Source
                       </a>
@@ -172,7 +188,11 @@ const Projects = () => {
                   </div>
                   <div className='live'>
                     <p>
-                      <a href='https://www.contractr.io/' target='_blank'>
+                      <a
+                        href='https://www.contractr.io/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <i class='far fa-hand-point-right'></i> Live
                       </a>
                     </p>
@@ -190,6 +210,7 @@ const Projects = () => {
           <a
             href='https://github.com/mjcapecci/portfolio_netlify'
             target='_blank'
+            rel='noopener noreferrer'
           >
             <i class='fab fa-github-alt'></i> Source
           </a>
