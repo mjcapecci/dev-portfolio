@@ -31,6 +31,8 @@ const Contact = () => {
       message
     };
 
+    setResponse('Sending message...');
+
     const res = await submitForm(formInputs);
 
     setResColor(res.isSuccess ? 'green' : '#87290b');
