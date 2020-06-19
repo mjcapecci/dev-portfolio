@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import stars from '../../img/stars.jpg';
+import stars from '../../img/stars2.jpg';
 
 export const StyledHero = styled.div`
   display: flex;
@@ -10,7 +10,8 @@ export const StyledHero = styled.div`
   text-align: center;
   text-shadow: 0 0 5px black;
   color: ${props => props.theme.light};
-  background: url(${stars}) center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(${stars}) center center fixed;
   h1 {
     margin: 0;
     font-size: 5rem;
@@ -38,7 +39,8 @@ export const StyledHero = styled.div`
   }
 
   @media ${props => props.theme.device.laptop} {
-    background: url(${stars}) scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(${stars}) scroll;
     h1 {
       font-size: 3.5rem;
     }
