@@ -118,6 +118,7 @@ const About = () => {
                   <li>Git</li>
                   <li>Webpack</li>
                   <li>Babel</li>
+                  <li>Enzyme | Jest</li>
                 </ul>
               </div>
             </AboutCard>
