@@ -38,6 +38,10 @@ export const StyledHero = styled.div`
       color: white;
     }
   }
+  @media only screen and (max-height: 800px) {
+    height: auto;
+    padding: 5rem;
+  }
 
   @media ${props => props.theme.device.laptop} {
     h1 {
@@ -57,6 +61,8 @@ export const StyledHero = styled.div`
   }
 
   @media ${props => props.theme.device.tabletS} {
+    height: 100vh;
+
     h1 {
       font-size: 2.3rem;
       padding: 0 2rem;
@@ -66,10 +72,5 @@ export const StyledHero = styled.div`
       font-size: 1rem;
       margin: 2.3rem;
     }
-  }
-
-  @media only screen and (max-height: 800px) {
-    height: auto;
-    padding: 5rem;
   }
 `;

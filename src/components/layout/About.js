@@ -1,9 +1,8 @@
 import React from 'react';
 import { StyledAbout, AboutCard, AboutGrid } from '../styles/about';
 import { ContainerBig } from '../styles/container';
-import LazyLoad from 'react-lazy-load';
 
-import me from '../../img/me.jpg';
+import me from '../../img/proPic3.jpg';
 import reactLogo from '../../img/reactLogo.svg';
 import nodeLogo from '../../img/nodeLogo.svg';
 import frontEndImg from '../../img/form.svg';
@@ -36,14 +35,12 @@ const About = () => {
           <AboutGrid>
             <AboutCard>
               <div className='me'>
-                <LazyLoad height={400}>
-                  <img
-                    className='picOfMe'
-                    src={me}
-                    alt='Michael Capecci standing in front of a painting of ships'
-                    ref={ref}
-                  ></img>
-                </LazyLoad>
+                <img
+                  className='picOfMe'
+                  src={me}
+                  alt='Michael Capecci standing in front of a painting of ships'
+                  ref={ref}
+                ></img>
               </div>
               <div className='icons'>
                 <img className='node logos' src={nodeLogo} alt='Node logo' />

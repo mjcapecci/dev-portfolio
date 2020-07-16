@@ -147,7 +147,7 @@ export const AboutCard = styled.div`
     border-radius: 0px;
 
     .icons {
-      margin-top: -4rem;
+      margin-top: 0rem;
       position: static;
     }
 
@@ -158,7 +158,7 @@ export const AboutCard = styled.div`
 
   @media only screen and (max-width: 355px) {
     .icons {
-      margin-top: -6rem;
+      margin-top: 0rem;
     }
   }
 `;
