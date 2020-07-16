@@ -15,6 +15,10 @@ export const StyledAbout = styled.section`
     text-align: center;
     margin: 4rem;
 
+    @media ${props => props.theme.device.mobileL} {
+      display: none;
+    }
+
     h2 {
       font-size: 3rem;
     }
@@ -29,6 +33,10 @@ export const StyledAbout = styled.section`
 
     @media ${props => props.theme.device.mobileL} {
       margin-bottom: 0;
+
+      .about-header {
+        background: none;
+      }
     }
   }
 `;
@@ -136,10 +144,21 @@ export const AboutCard = styled.div`
   }
 
   @media ${props => props.theme.device.mobileL} {
-    border-radius: none;
+    border-radius: 0px;
 
     .icons {
-      display: none;
+      margin-top: -4rem;
+      position: static;
+    }
+
+    p {
+      margin-bottom: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 355px) {
+    .icons {
+      margin-top: -6rem;
     }
   }
 `;

@@ -1,12 +1,18 @@
 import React from 'react';
 import { StyledNavbar } from '../styles/navbar';
-import myLogo from '../../img/myLogo.png';
+import myLogo from '../../img/dark-logo.png';
 
 import resume from '../../resume.pdf';
 
+import useScrollPosition from '@react-hook/window-scroll';
+
 const Navbar = () => {
+  const scrollY = useScrollPosition(60);
   return (
-    <StyledNavbar id='navbar'>
+    <StyledNavbar
+      id='navbar'
+      style={{ background: `rgba(38, 37, 37, ${scrollY / 100})` }}
+    >
       <div className='logo'>
         <a href='#hero'>
           <img src={myLogo} alt='' />

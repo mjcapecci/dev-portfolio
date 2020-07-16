@@ -8,7 +8,7 @@ export const StyledNavbar = styled.nav`
   min-height: 48px;
   color: ${props => props.theme.light};
   width: 100%;
-  background: #333;
+  background: none;
   position: fixed;
   z-index: 2;
 
@@ -17,7 +17,8 @@ export const StyledNavbar = styled.nav`
 
     img {
       transform: translateY(1.5px);
-      width: 50px;
+      width: 108px;
+      height: 28px;
       transition: all 0.2s;
 
       &:hover {

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import stars from '../../img/stars2.jpg';
+import stars from '../../img/devHero.jpg';
 
 export const StyledHero = styled.div`
   display: flex;
@@ -11,10 +11,11 @@ export const StyledHero = styled.div`
   text-shadow: 0 0 5px black;
   color: ${props => props.theme.light};
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(${stars}) center center fixed;
+    url(${stars}) center no-repeat;
+  background-size: cover;
   h1 {
     margin: 0;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   h2 {
     margin: 4rem;
@@ -39,8 +40,6 @@ export const StyledHero = styled.div`
   }
 
   @media ${props => props.theme.device.laptop} {
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-      url(${stars}) scroll;
     h1 {
       font-size: 3.5rem;
     }
@@ -67,5 +66,10 @@ export const StyledHero = styled.div`
       font-size: 1rem;
       margin: 2.3rem;
     }
+  }
+
+  @media only screen and (max-height: 800px) {
+    height: auto;
+    padding: 5rem;
   }
 `;
