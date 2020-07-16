@@ -45,13 +45,14 @@ export const AboutGrid = styled.div`
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(4, 1fr);
+  transition: all 0.2s ease;
 
   @media ${props => props.theme.device.desktop} {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 6rem;
   }
 
-  @media ${props => props.theme.device.laptop} {
+  @media ${props => props.theme.device.tablet} {
     grid-gap: 4rem;
     grid-template-columns: repeat(1, 1fr);
   }

@@ -10,6 +10,7 @@ export const StyledHero = styled.div`
   text-align: center;
   text-shadow: 0 0 5px black;
   color: ${props => props.theme.light};
+  background: #373e4b;
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url(${stars}) center no-repeat;
   background-size: cover;
@@ -40,6 +41,7 @@ export const StyledHero = styled.div`
   }
   @media only screen and (max-height: 800px) {
     height: auto;
+    min-height: 100vh;
     padding: 5rem;
   }
 

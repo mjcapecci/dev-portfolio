@@ -79,4 +79,8 @@ export const ContactForm = styled.form`
     background: #78788c;
     color: #fff;
   }
+
+  @media only screen and (max-width: 450px) {
+    width: 90%;
+  }
 `;

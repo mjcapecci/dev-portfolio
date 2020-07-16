@@ -6,14 +6,14 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <StyledHero id='hero'>
-      <motion.h1
+      <motion.h1>Michael Capecci</motion.h1>
+      <motion.h2
         initial={{ opacity: 0, y: -360 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        Michael Capecci
-      </motion.h1>
-      <h2>Full-stack Web Developer</h2>
+        Full-stack Web Developer
+      </motion.h2>
       <div className='social'>
         <a
           href='https://github.com/mjcapecci'
