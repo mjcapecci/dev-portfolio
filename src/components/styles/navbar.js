@@ -10,7 +10,17 @@ export const StyledNavbar = styled.nav`
   width: 100%;
   background: none;
   position: fixed;
+  transition: all 1s ease;
   z-index: 2;
+
+  .off-top {
+    color: gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #68b9c8;
+    &:hover {
+      color: #111;
+    }
+  }
 
   .logo {
     margin-left: 3rem;
@@ -31,18 +41,23 @@ export const StyledNavbar = styled.nav`
     display: flex;
     list-style: none;
 
+    .logo {
+      transition: all 0.5s ease;
+    }
+
     a {
       color: white;
       text-decoration: none;
       transition: all 0.1s;
 
       &:hover {
-        color: #d1f7ff;
+        color: #5d847f;
       }
     }
 
     li {
       margin-right: 3rem;
+      transition: all 0.1s ease;
     }
   }
 

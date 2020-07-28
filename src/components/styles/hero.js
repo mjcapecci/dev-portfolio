@@ -7,15 +7,8 @@ export const StyledHero = styled.div`
   align-items: center;
   height: 100vh;
   text-align: center;
-  text-shadow: 0 0 5px black;
   color: ${props => props.theme.light};
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    315deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(13, 13, 60, 1) 39%,
-    rgba(18, 140, 164, 1) 100%
-  );
+  background: linear-gradient(to right, #183b59, #3db3c5cc 100%);
   h1 {
     margin: 0;
     font-size: 4rem;

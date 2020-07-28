@@ -67,7 +67,6 @@ export const AboutCard = styled.div`
   overflow: hidden;
   max-width: 390px;
   border-radius: 5px;
-  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.68);
   padding: 1rem;
   max-height: 38rem;
   min-height: 38rem;
@@ -76,12 +75,7 @@ export const AboutCard = styled.div`
 
   &:nth-child(even) {
     color: ${props => props.theme.spaceColor};
-    background: rgb(240, 255, 255);
-    background: linear-gradient(
-      3deg,
-      rgba(240, 255, 255, 1) 0%,
-      rgba(210, 241, 255, 1) 100%
-    );
+    background: #ebf0f0;
   }
 
   &:nth-child(odd) {

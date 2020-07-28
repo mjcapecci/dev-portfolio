@@ -8,10 +8,10 @@ export const StyledFooter = styled.footer`
   height: 5rem;
   background: none;
   margin: 0;
-  background: rgb(130, 120, 96);
+  background: #ebf0f0;
 
   p {
-    color: white;
+    color: #333;
     margin: 0 10%;
   }
 `;

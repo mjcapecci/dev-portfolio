@@ -8,13 +8,7 @@ export const StyledContact = styled.section`
   height: auto;
   width: 100%;
   color: ${props => props.theme.spaceColor};
-  background: rgb(240, 255, 255);
-  background: linear-gradient(
-    3deg,
-    rgba(240, 255, 255, 1) 0%,
-    rgba(210, 241, 255, 1) 100%
-  );
-
+  background: #ebf0f0;
   .contact-header {
     color: ${props => props.theme.spaceColor};
     text-align: center;
@@ -42,7 +36,7 @@ export const StyledContact = styled.section`
 export const ContactForm = styled.form`
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    315deg,
+    1845deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(13, 13, 60, 1) 39%,
     rgba(18, 140, 164, 1) 100%

@@ -12,12 +12,7 @@ export const StyledProjects = styled.section`
   width: 100%;
   color: ${props => props.theme.light};
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    315deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(13, 13, 60, 1) 39%,
-    rgba(18, 140, 164, 1) 100%
-  );
+  background: linear-gradient(to left, #183b59, #3db3c5cc 100%);
 
   .projects-header {
     color: ${props => props.theme.light};
