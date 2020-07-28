@@ -76,11 +76,22 @@ export const AboutCard = styled.div`
 
   &:nth-child(even) {
     color: ${props => props.theme.spaceColor};
-    background: #b3c7d6;
+    background: rgb(240, 255, 255);
+    background: linear-gradient(
+      3deg,
+      rgba(240, 255, 255, 1) 0%,
+      rgba(210, 241, 255, 1) 100%
+    );
   }
 
   &:nth-child(odd) {
-    background: rgba(15, 30, 59, 1);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      315deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(13, 13, 60, 1) 39%,
+      rgba(18, 140, 164, 1) 100%
+    );
   }
 
   .me {

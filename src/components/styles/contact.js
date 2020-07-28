@@ -8,7 +8,12 @@ export const StyledContact = styled.section`
   height: auto;
   width: 100%;
   color: ${props => props.theme.spaceColor};
-  background: #b3c7d6;
+  background: rgb(240, 255, 255);
+  background: linear-gradient(
+    3deg,
+    rgba(240, 255, 255, 1) 0%,
+    rgba(210, 241, 255, 1) 100%
+  );
 
   .contact-header {
     color: ${props => props.theme.spaceColor};
@@ -35,7 +40,13 @@ export const StyledContact = styled.section`
 `;
 
 export const ContactForm = styled.form`
-  background: ${props => props.theme.spaceColor};
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    315deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(13, 13, 60, 1) 39%,
+    rgba(18, 140, 164, 1) 100%
+  );
   width: 100%;
   border-radius: 5px;
   position: relative;
@@ -56,6 +67,10 @@ export const ContactForm = styled.form`
   }
   input:focus {
     border-bottom: 2px solid #b3c7d6;
+  }
+
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
   }
   p:before {
     content: attr(type);

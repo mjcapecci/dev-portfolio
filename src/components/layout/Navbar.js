@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <StyledNavbar
       id='navbar'
-      style={{ background: `rgba(38, 37, 37, ${scrollY / 100})` }}
+      style={{ background: `rgba(130, 120, 96, ${scrollY / 100})` }}
     >
       <div className='logo'>
         <a href='#hero'>

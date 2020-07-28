@@ -11,7 +11,13 @@ export const StyledProjects = styled.section`
   height: auto;
   width: 100%;
   color: ${props => props.theme.light};
-  background: ${props => props.theme.spaceColor};
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    315deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(13, 13, 60, 1) 39%,
+    rgba(18, 140, 164, 1) 100%
+  );
 
   .projects-header {
     color: ${props => props.theme.light};
